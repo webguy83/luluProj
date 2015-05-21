@@ -1,2 +1,3 @@
 # luluProj
-Lulu project
+
+Enjoy :)
