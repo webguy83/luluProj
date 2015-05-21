@@ -1,0 +1,68 @@
+#wrapper {
+    background-color: rgb(239, 239, 239);
+	width: 800px;
+	margin: 0 auto;
+	font-family: Arial, Helvetica, sans-serif;
+	-webkit-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.75);
+}
+
+.item {
+	border-bottom:1px solid black;
+	padding-top:25px
+}
+
+#wrapper h1 {
+    text-align:center;
+    margin-bottom: 0;
+}
+
+.movieBlock {
+	padding: 0 25px 25px;
+	width: 215px;
+	float: left;
+}
+
+.movieReleaseDate {
+    margin: 0;
+	font-size: 12px;
+	text-align: right;
+}
+
+.movieInfo .movieTitle {
+	margin: 0;
+    font-size: 22px;
+	text-align: center;
+}
+
+.movieData {
+	margin-left: 225px;
+	overflow: hidden;
+}
+
+.movieData > .dataWrap > ul {
+	list-style-type: none;
+	padding-top:5px;
+	padding-right:5px;
+	padding-left: 0;
+}
+
+.movieData > .dataWrap {
+	display: none;
+}
+
+.movieData li {
+	padding-bottom:10px;
+}
+
+.rated > span {
+	font-weight: bold;
+}
+
+.bar {
+	text-align:center;
+	text-transform:uppercase;
+	background-color: rgb(142, 252, 147);
+	padding: 10px 0;
+}
